@@ -465,10 +465,6 @@ textarea.form-input {
 }
 
 @media screen and (max-width: 1024px) {
-  /* .menu-section .menu-list {
-    gap: 60px;
-  } */
-
   .menu-section {
     padding: 60px 50px;
   }
@@ -478,11 +474,11 @@ textarea.form-input {
   }
 
   .menu-item {
-    width: calc(50% - 30px); /* 2 items per row */
+    width: calc(50% - 30px);
   }
 
   .menu-item .menu-image {
-    width: 130px; /* ⬆️ Still large but balanced for tablets */
+    width: 130px;
   }
 
   .menu-details .name {
@@ -493,9 +489,6 @@ textarea.form-input {
     font-size: 0.95rem;
   }
 
-  /* .menu-item {
-    width: calc(100% / 3 - 60px);
-  } */
   .hero-section .section-content {
     flex-direction: column-reverse;
     align-items: center;
@@ -652,15 +645,6 @@ textarea.form-input {
 }
 
 @media screen and (max-width: 640px) {
-  /* .menu-item,
-  .gallery-item {
-    width: 100%;
-  } */
-
-  /*.menu-section .menu-list {
-    gap: 110px;
-  } */
-
   .menu-section {
     padding: 50px 20px;
   }
